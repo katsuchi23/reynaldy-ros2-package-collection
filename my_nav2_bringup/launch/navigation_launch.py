@@ -163,8 +163,7 @@ def generate_launch_description():
                 output='screen',
                 respawn=use_respawn,
                 respawn_delay=2.0,
-                parameters=[configured_params, 
-                            {'default_nav_to_pose_bt_xml': bt_file}],
+                parameters=[configured_params],
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings),
             Node(
@@ -232,7 +231,7 @@ def generate_launch_description():
                 package='nav2_bt_navigator',
                 plugin='nav2_bt_navigator::BtNavigator',
                 name='bt_navigator',
-                parameters=[configured_params, {'default_nav_to_pose_bt_xml': bt_file}],
+                parameters=[configured_params],
                 remappings=remappings),
             ComposableNode(
                 package='nav2_waypoint_follower',
