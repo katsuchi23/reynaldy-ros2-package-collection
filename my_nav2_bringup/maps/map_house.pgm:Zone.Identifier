@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/autonomy-and-verification-uol/gwendolen-ros-turtlebot3/blob/master/maps/map_house.pgm
+HostUrl=https://raw.githubusercontent.com/autonomy-and-verification-uol/gwendolen-ros-turtlebot3/refs/heads/master/maps/map_house.pgm
