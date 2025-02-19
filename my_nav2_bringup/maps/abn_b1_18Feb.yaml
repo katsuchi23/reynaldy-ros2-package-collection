@@ -1,0 +1,7 @@
+image: abn_b1_18Feb.pgm
+resolution: 0.050000
+origin: [-45.287483, -67.890884, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
